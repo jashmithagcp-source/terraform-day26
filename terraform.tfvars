@@ -1,0 +1,5 @@
+project_id   = "project-b258e454-5928-4270-915"
+region       = "us-central1"
+zone         = "us-central1-a"
+subnet_cidr  = "10.10.0.0/24"
+machine_type = "e2-small"
