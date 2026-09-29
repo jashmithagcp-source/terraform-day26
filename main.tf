@@ -1,4 +1,11 @@
 terraform {
+  backend "gcs" {
+    bucket = "jashmitha-terraform-state-2026"
+    prefix = "terraform-day26"
+  }
+
+
+
   required_providers {
     google = {
       source  = "hashicorp/google"
